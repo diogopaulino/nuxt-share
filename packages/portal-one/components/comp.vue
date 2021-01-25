@@ -1,1 +1,1 @@
-<template><div>Simple Component</div></template>
+<template><div>Simple Component portal-one</div></template>

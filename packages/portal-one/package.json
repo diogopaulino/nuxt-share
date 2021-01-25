@@ -18,7 +18,9 @@
     "url": "git+https://github.com/diogopaulino/nuxt-share.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "nuxt",
+    "build": "nuxt build"
   },
   "dependencies": {
     "nuxt": "^2.14.12"

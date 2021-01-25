@@ -1,5 +1,9 @@
 <template>
-  <comp class="overridden"/>
+  <div>
+    <comp class="overridden"/>
+    <div> Simple test portal two</div>
+  </div>
+  
 </template>
 <style>
 .overridden { text-transform: uppercase; }
