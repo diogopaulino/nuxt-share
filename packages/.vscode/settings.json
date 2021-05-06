@@ -1,0 +1,56 @@
+{
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/.git": true,
+      "**/.hg": true,
+      "**/.svn": true,
+      "**/*.orig": true,
+      "**/**/*.orig": true,
+      "node_modules": true,
+      "report": true
+    },
+    "editor.tabSize": 2,
+    "[css]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+    "[scss]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+    "[html]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+    "workbench.editor.enablePreview": false,
+    "files.trimTrailingWhitespace": true,
+    "vetur.validation.template": false,
+    "vetur.format.defaultFormatter.html": "prettier",
+    "eslint.trace.server": "messages",
+    "eslint.alwaysShowStatus": true,
+    "eslint.run": "onType",
+    "scss.completion.completePropertyWithSemicolon": true,
+    "scss.completion.triggerPropertyValueCompletion": true,
+    "scss.lint.argumentsInColorFunction": "error",
+    "scss.lint.boxModel": "ignore",
+    "scss.lint.compatibleVendorPrefixes": "ignore",
+    "scss.lint.duplicateProperties": "error",
+    "scss.lint.emptyRules": "warning",
+    "scss.lint.float": "ignore",
+    "scss.lint.fontFaceProperties": "warning",
+    "scss.lint.hexColorLength": "error",
+    "scss.lint.idSelector": "ignore",
+    "scss.lint.important": "warning",
+    "scss.lint.importStatement": "ignore",
+    "scss.lint.propertyIgnoredDueToDisplay": "warning",
+    "scss.lint.universalSelector": "ignore",
+    "scss.lint.unknownProperties": "error",
+    "scss.lint.unknownVendorSpecificProperties": "ignore",
+    "scss.lint.validProperties": [],
+    "scss.lint.vendorPrefix": "warning",
+    "scss.lint.zeroUnits": "warning",
+    "scss.validate": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  }
