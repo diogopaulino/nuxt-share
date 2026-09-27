@@ -11,7 +11,8 @@
     "dev": "nuxt dev playground",
     "build": "nuxt build playground",
     "typecheck": "nuxt typecheck playground",
-    "postinstall": "nuxt prepare playground"
+    "postinstall": "nuxt prepare playground",
+    "check": "npm run typecheck && npm run build"
   },
   "devDependencies": {
     "nuxt": "4.5.2",
@@ -20,5 +21,7 @@
   },
   "engines": {
     "node": ">=22.12.0"
-  }
+  },
+  "description": "Nuxt 4 layer example for sharing components, composables and configuration.",
+  "packageManager": "npm@10.9.8"
 }

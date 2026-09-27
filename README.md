@@ -1,22 +1,18 @@
 <h1 align="center">Nuxt Share</h1>
 
-<p align="center">
-  Share components, composables and configuration across Nuxt apps using <strong>Nuxt Layers</strong>.
-</p>
+<p align="center">Share components, composables and configuration across Nuxt apps with Layers.</p>
 
 <p align="center">
   <a href="https://github.com/diogopaulino/nuxt-share/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/diogopaulino/nuxt-share/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="Node.js 22+" src="https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white">
-  <img alt="Nuxt 4" src="https://img.shields.io/badge/Nuxt-4.5-00DC82?logo=nuxt&logoColor=white">
+  <img alt="Nuxt 4" src="https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt&logoColor=white">
 </p>
 
-## What it demonstrates
+## Overview
 
-A practical **Nuxt 4 Layer** with a playground app consuming shared code from the parent layer.
+A practical Nuxt 4 Layer with a playground application consuming shared code from the repository root.
 
-It replaces the old copy/paste and package-linking experiment with the native Nuxt approach.
-
-## Shared by the layer
+## Shared layer
 
 ```text
 app/
@@ -38,7 +34,7 @@ playground/
 └── tsconfig.json
 ```
 
-The playground extends the repository root:
+The playground extends the root layer:
 
 ```ts
 export default defineNuxtConfig({
@@ -46,32 +42,30 @@ export default defineNuxtConfig({
 })
 ```
 
-## Quick start
+## Run
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-## Commands
+## Quality
 
-| Command | Purpose |
-|---|---|
-| `npm run dev` | Run the playground |
-| `npm run build` | Build the playground |
-| `npm run typecheck` | Validate shared + playground code |
+```bash
+npm run check
+```
 
-## When to use Layers
+This validates the shared layer and builds the playground.
 
-Layers are useful for sharing:
+## Good use cases
 
-- components and composables
+- shared components and composables
 - common configuration
 - layouts and pages
 - design systems
-- reusable app foundations
+- reusable application foundations
 
-## Learn more
+## Documentation
 
 - [Nuxt Layers](https://nuxt.com/docs/4.x/getting-started/layers)
-- [Nuxt documentation](https://nuxt.com/docs/4.x)
+- [Nuxt](https://nuxt.com/docs/4.x)
