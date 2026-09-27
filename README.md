@@ -1,17 +1,37 @@
 # nuxt-share
 
-> **Legacy research repository.** This repository does not contain a runnable Nuxt application.
+A modern **Nuxt 4 layer** showing the current way to share components, composables and configuration between Nuxt applications.
 
-It was created to explore ways of sharing code between Nuxt projects. The ecosystem has evolved significantly since then.
+## Stack
 
-For modern Nuxt projects, prefer **Nuxt Layers** to share components, composables, configuration and reusable application structure:
+- Nuxt 4.5.2
+- Nuxt Layers
+- Vue 3
+- TypeScript
+- Node.js 22+
 
-https://nuxt.com/docs/4.x/getting-started/layers
+## What is shared
 
-For a reusable layer starter:
+- `app/components/SharedBadge.vue`
+- `app/composables/useSharedMessage.ts`
+- root `nuxt.config.ts`
+
+The `playground/` app extends the layer and demonstrates both shared pieces.
+
+## Run
 
 ```bash
-npm create nuxt -- --template layer nuxt-layer
+npm install
+npm run dev
 ```
 
-Kept as a historical reference only.
+## Validate
+
+```bash
+npm run typecheck
+npm run build
+```
+
+This replaces the old link-only research repository with an executable example based on Nuxt Layers.
+
+Docs: https://nuxt.com/docs/4.x/getting-started/layers

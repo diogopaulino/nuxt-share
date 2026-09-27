@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-share",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "app",
+    "nuxt.config.ts"
+  ],
+  "scripts": {
+    "dev": "nuxt dev playground",
+    "build": "nuxt build playground",
+    "typecheck": "nuxt typecheck playground",
+    "postinstall": "nuxt prepare playground"
+  },
+  "devDependencies": {
+    "nuxt": "4.5.2",
+    "typescript": "^6.0.0",
+    "vue-tsc": "3.3.11"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
