@@ -17,12 +17,12 @@
   "devDependencies": {
     "nuxt": "4.5.2",
     "typescript": "^6.0.0",
-    "vue-tsc": "3.3.11"
+    "vue-tsc": "3.3.12"
   },
   "engines": {
     "node": ">=22.12.0"
   },
   "description": "Nuxt 4 layer example for sharing components, composables and configuration.",
-  "packageManager": "npm@10.9.8",
+  "packageManager": "npm@10.9.9",
   "license": "MIT"
 }
